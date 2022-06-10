@@ -1,0 +1,50 @@
+body{
+    font-family:monospace;
+
+}
+ul{
+    font-family:helvetica;
+}
+li{
+    list-style:circle;
+}
+.li{
+    list-style:square;
+}
+:root{
+    --green:#00ff00;
+    --white:#ffffff;
+    --black:#000000;
+}
+.light-theme{
+    --bg:var(--green);
+    --fontColor:var(--black);
+    --buttBg: var(--black);
+    --buttFontColor: var(--white);
+}
+.dark-theme{
+    --bg:var(--black);
+    --fontColor:var(--green);
+    --buttBg: var(--white);
+    --buttFontColor: var(--black);
+    background-image: url("https://i.imgur.com/0pfFjIw.jpeg")
+}
+*{
+    color: var(--fontColor);
+    font-family: helvetica;    
+}
+body{
+    background: var(--bg);
+}
+.butt{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius:60%;
+    border: 50%;
+    color: var(--buttFontColor);
+    background-color: var(--buttBg);
+}
+.butt:focus{outline-style: none;}
