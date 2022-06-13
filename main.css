@@ -27,7 +27,7 @@ li{
     --fontColor:var(--green);
     --buttBg: var(--white);
     --buttFontColor: var(--black);
-    background-image: url("https://i.imgur.com/0pfFjIw.jpeg")
+    background-image: url("file:///C:/Users/Wellington%20Mota/Downloads/magic-forest.jpg")
 }
 *{
     color: var(--fontColor);
